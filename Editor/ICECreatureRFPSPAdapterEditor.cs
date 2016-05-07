@@ -22,6 +22,7 @@ using ICE;
 using ICE.Styles;
 using ICE.Layouts;
 using ICE.Creatures;
+using ICE.Creatures.Components;
 using ICE.Creatures.EditorHandler;
 
 namespace ICE.Creatures.Adapter

@@ -1057,24 +1057,16 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 416954}
+  - 114: {fileID: 11416788}
   - 195: {fileID: 19505106}
   - 136: {fileID: 13628688}
   - 54: {fileID: 5494556}
-  - 114: {fileID: 11416788}
   - 114: {fileID: 11476282}
   - 114: {fileID: 11491940}
-  - 82: {fileID: 8229134}
-  - 82: {fileID: 8215884}
-  - 82: {fileID: 8247468}
-  - 82: {fileID: 8238336}
-  - 82: {fileID: 8277058}
-  - 82: {fileID: 8258328}
-  - 82: {fileID: 8287168}
-  - 82: {fileID: 8251938}
-  - 82: {fileID: 8246732}
-  - 82: {fileID: 8282804}
-  - 82: {fileID: 8281384}
-  - 82: {fileID: 8263740}
+  - 82: {fileID: 8222942}
+  - 82: {fileID: 8220304}
+  - 82: {fileID: 8235500}
+  - 82: {fileID: 8282654}
   m_Layer: 13
   m_Name: ICESoldierBadNPC
   m_TagString: Flesh
@@ -2460,12 +2452,12 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 10
   m_AngularDrag: 0.1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 116
+  m_Constraints: 112
   m_CollisionDetection: 0
---- !u!82 &8215884
+--- !u!82 &8220304
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -2539,7 +2531,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!82 &8229134
+--- !u!82 &8222942
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -2613,7 +2605,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!82 &8238336
+--- !u!82 &8235500
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -2687,599 +2679,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!82 &8246732
-AudioSource:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 189572}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 0.5
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 10
-  MaxDistance: 100
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
---- !u!82 &8247468
-AudioSource:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 189572}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 0.5
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 10
-  MaxDistance: 100
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
---- !u!82 &8251938
-AudioSource:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 189572}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 0.5
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 10
-  MaxDistance: 100
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
---- !u!82 &8258328
-AudioSource:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 189572}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 0.5
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 10
-  MaxDistance: 100
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
---- !u!82 &8263740
-AudioSource:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 189572}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 0.5
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 10
-  MaxDistance: 100
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
---- !u!82 &8277058
-AudioSource:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 189572}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 0.5
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 10
-  MaxDistance: 100
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
---- !u!82 &8281384
-AudioSource:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 189572}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 0.5
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 10
-  MaxDistance: 100
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
---- !u!82 &8282804
-AudioSource:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 189572}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 0.5
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 10
-  MaxDistance: 100
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
---- !u!82 &8287168
+--- !u!82 &8282654
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -3438,7 +2838,7 @@ MonoBehaviour:
     m_ShowHelpBehaviour: 0
     m_ShowDebug: 1
     m_ShowInfo: 0
-    m_ShowEssentials: 1
+    m_ShowEssentials: 0
     m_ShowWizard: 0
     m_ShowEnvironmentSettings: 0
     m_ShowStatus: 0
@@ -3448,7 +2848,7 @@ MonoBehaviour:
     m_ShowMissionsEscort: 1
     m_ShowMissionsPatrol: 1
     m_ShowInteractionSettings: 0
-    m_ShowBehaviour: 0
+    m_ShowBehaviour: 1
     m_ShowBehaviourMove: 1
     m_ShowBehaviourAudio: 1
     m_ShowBehaviourInluences: 1
@@ -3478,12 +2878,18 @@ MonoBehaviour:
     m_FoldoutStatusDynamicInfluences: 1
     m_FoldoutInventory: 1
   m_Creature:
+    Enabled: 0
+    Foldout: 0
+    EnableDebugLog: 0
     LastGroupCommand: 
     DontDestroyOnLoad: 0
     UseCoroutine: 0
     UseApplicationFocus: 0
     IsPaused: 0
     m_Interaction:
+      Enabled: 0
+      Foldout: 0
+      EnableDebugLog: 0
       m_Interactors:
       - AccessType: 1
         m_TargetTag: Player
@@ -3703,7 +3109,10 @@ MonoBehaviour:
           OverrideInfluences: 0
           BlockRuleUpdateUntilMovePositionReached: 0
       UseAutoInteractorDetection: 0
-    m_Characteristics:
+    m_Essentials:
+      Enabled: 0
+      Foldout: 0
+      EnableDebugLog: 0
       DefaultRunningSpeed: 7
       DefaultWalkingSpeed: 3
       DefaultTurningSpeed: 4
@@ -4031,8 +3440,6 @@ MonoBehaviour:
       TrophicLevel: 0
       IsCannibal: 0
       UseAutoDetectInteractors: 0
-      m_GroundLayers: []
-    m_Essentials:
       m_Target:
         AccessType: 1
         m_TargetTag: Untagged
@@ -4145,30 +3552,35 @@ MonoBehaviour:
       BehaviourModeJump: JUMP
       BehaviourModeDead: ' '
     m_Status:
+      Enabled: 0
+      Foldout: 0
+      EnableDebugLog: 0
       Integrity: 100
       MaxIntegrity: 100
       MaxIntegrityMaximum: 100
       UseAging: 1
       MaxAge: 60
       MaxAgeMaximum: 60
-      PerceptionTime: 0.5152402
+      PerceptionTime: 0.40198672
       DefaultPerceptionTime: 0.5
       PerceptionTimeVariance: 0.25
       AutoPerceptionTime: 1
       PerceptionTimeFitnessMultiplier: 0
-      ReactionTime: 0.54145056
+      ReactionTime: 0.59343076
       DefaultReactionTime: 0.5
       ReactionTimeVariance: 0.25
       AutoReactionTime: 1
       ReactionTimeFitnessMultiplier: 0
       RecoveryPhase: 0
       RecoveryPhasePeriodMax: 30
-      RespawnDelayMax: 300
-      RespawnDelay: 8.233041
-      RespawnDelayVariance: 0.25
+      RemoveDelayMaximum: 300
+      RemoveDelay: 8.549772
+      RemoveDelayVariance: 0.25
       UseCorpse: 1
-      CorpseReferencePrefab: {fileID: 100110, guid: 54ace214021fbd64e8b3f6d726ba7d3f,
-        type: 2}
+      CorpseReferencePrefab: {fileID: 0}
+      CorpseRemoveDelay: 20
+      CorpseRemoveDelayMaximum: 300
+      CorpseRemoveDelayVariance: 0.25
       FitnessRecreationLimit: 0
       TrophicLevel: 0
       IsCannibal: 0
@@ -4312,9 +3724,12 @@ MonoBehaviour:
           Capacity: 100
       IsReactionForced: 0
     m_Behaviour:
+      Enabled: 0
+      Foldout: 0
+      EnableDebugLog: 0
       m_BehaviourModes:
       - Key: IDLE
-        Foldout: 1
+        Foldout: 0
         ShowInfoText: 0
         InfoText: 
         RulesOrderType: 0
@@ -4332,9 +3747,10 @@ MonoBehaviour:
           FavouredTargetName: 
           FavouredTargetRange: 0
         m_Rules:
-        - Key: 
-          Enabled: 1
+        - Enabled: 1
           Foldout: 1
+          EnableDebugLog: 0
+          Key: 
           UseFootsteps: 0
           UseCustomLength: 1
           LengthMin: 0
@@ -4429,7 +3845,7 @@ MonoBehaviour:
           Look:
             Enabled: 0
             UseInvisibility: 0
-            InvisibilityType: 0
+            InvisibilityType: 1
           Audio:
             Enabled: 0
             m_Clips: []
@@ -4442,8 +3858,8 @@ MonoBehaviour:
             RolloffMode: 0
           Message:
             Enabled: 0
-            MethodType: 0
-            CustomMethodName: 
+            Foldout: 0
+            EnableDebugLog: 0
             ImpulseIntervalMin: 0
             ImpulseIntervalMax: 0
             ImpulseIntervalMaximum: 5
@@ -4453,6 +3869,8 @@ MonoBehaviour:
             ImpulseBreakLengthMin: 0
             ImpulseBreakLengthMax: 0
             ImpulseBreakLengthMaximum: 10
+            MethodType: 0
+            CustomMethodName: 
           Influences:
             Foldout: 1
             Enabled: 0
@@ -4515,9 +3933,10 @@ MonoBehaviour:
           FavouredTargetName: 
           FavouredTargetRange: 0
         m_Rules:
-        - Key: 
-          Enabled: 1
+        - Enabled: 1
           Foldout: 1
+          EnableDebugLog: 0
+          Key: 
           UseFootsteps: 0
           UseCustomLength: 1
           LengthMin: 0
@@ -4555,7 +3974,7 @@ MonoBehaviour:
               AvoidDistance: 0
             Velocity:
               Type: 0
-              Velocity: {x: 0, y: 0, z: 1}
+              Velocity: {x: 0, y: 0, z: 1.1999999}
               VelocityMax: {x: 0, y: 0, z: 0}
               UseNegativeVelocity: 0
               VelocityMinVariance: 0
@@ -4625,8 +4044,175 @@ MonoBehaviour:
             RolloffMode: 0
           Message:
             Enabled: 0
+            Foldout: 0
+            EnableDebugLog: 0
+            ImpulseIntervalMin: 0.68965507
+            ImpulseIntervalMax: 0.68965507
+            ImpulseIntervalMaximum: 5
+            ImpulseSequenceLimitMin: 0
+            ImpulseSequenceLimitMax: 0
+            ImpulseSequenceLimitMaximum: 10
+            ImpulseBreakLengthMin: 0
+            ImpulseBreakLengthMax: 0
+            ImpulseBreakLengthMaximum: 10
             MethodType: 0
             CustomMethodName: 
+          Influences:
+            Foldout: 1
+            Enabled: 0
+            Interval: 0
+            Damage: 0
+            Stress: 0
+            Debility: 0
+            Hunger: 0
+            Thirst: 0
+            Aggressivity: 0
+            Anxiety: 0
+            Experience: 0
+            Nosiness: 0
+            Odour:
+              Enabled: 0
+              Type: 0
+              Intensity: 0
+              IntensityMax: 0
+              Range: 0
+              RangeMax: 0
+              UseMarker: 0
+              UseEffect: 0
+          Effect:
+            Enabled: 0
+            ReferenceObject: {fileID: 0}
+            Offset: {x: 0, y: 0, z: 0}
+            Rotation: {x: 0, y: 0, z: 0, w: 1}
+            OffsetType: 0
+            OffsetRadius: 0
+            Detach: 0
+            IntervalMin: 0
+            IntervalMax: 0
+            MaxInterval: 60
+            ParentName: Body
+            CurrentEffect: {fileID: 0}
+          Links:
+            Enabled: 0
+            Link: 0
+            BehaviourModeKey: 
+            RuleIndex: 0
+          Inventory:
+            Enabled: 0
+            m_ActionList: []
+        - Enabled: 1
+          Foldout: 1
+          EnableDebugLog: 0
+          Key: 
+          UseFootsteps: 0
+          UseCustomLength: 1
+          LengthMin: 0
+          LengthMax: 0
+          LengthMaximum: 20
+          Body:
+            Type: 0
+            UseAdvanced: 0
+            UseLeaningTurn: 0
+            MaxLeanAngle: 0
+            LeanAngleMultiplier: 0
+            Width: 0
+            Length: 0
+            Height: 0
+            WidthOffset: 0
+            LengthOffset: 0
+            HeightOffset: 0
+            DefaultWidth: 0
+            DefaultLength: 0
+            DefaultHeight: 0
+          Move:
+            Enabled: 1
+            Type: 0
+            Detour:
+              Position: {x: 0, y: 0, z: 0}
+            Orbit:
+              Radius: 0
+              RadiusShift: 0
+              MaxDistance: 0
+              MinDistance: 0
+            Escape:
+              EscapeDistance: 0
+              RandomEscapeAngle: 0
+            Avoid:
+              AvoidDistance: 0
+            Velocity:
+              Type: 0
+              Velocity: {x: 0, y: 0, z: 1.1999999}
+              VelocityMax: {x: 0, y: 0, z: 0}
+              UseNegativeVelocity: 0
+              VelocityMinVariance: 0
+              VelocityMaxVariance: 0
+              UseTargetVelocity: 0
+              AngularVelocity: 4
+              AngularVelocityAuto: 0
+              Inertia: 0
+              UseAutoDrift: 0
+              DriftMultiplier: 0
+              VelocityMultiplier: 0
+              VelocityMultiplierUpdateTimer: 0
+              VelocityMultiplierUpdateInterval: 0
+            ViewingDirection: 0
+            ViewingDirectionPosition: {x: 0, y: 0, z: 0}
+            MoveStopDistance: 0
+            MoveSegmentLength: 0
+            MaxMoveSegmentLength: 0
+            MoveSegmentVariance: 0
+            MoveDeviationLength: 0
+            MoveDeviationLengthMax: 0
+            MoveDeviationVariance: 0
+            MoveIgnoreLevelDifference: 0
+            Link: 0
+            NextBehaviourModeKey: 
+          Animation:
+            AllowInterfaceSelector: 0
+            InterfaceType: 2
+            Animator:
+              m_Parameters: []
+              StateName: 
+              Name: 
+              Index: 0
+              Length: 0
+              DefaultWrapMode: 0
+              AutoSpeed: 0
+              Speed: 0
+              TransitionDuration: 0
+              Type: 0
+              ApplyRootMotion: 0
+            Animation:
+              Name: walk
+              Index: 0
+              Length: 0
+              wrapMode: 2
+              DefaultSpeed: 0
+              DefaultWrapMode: 0
+              Speed: 1
+              AutoSpeed: 0
+              TransitionDuration: 0.5
+            Clip:
+              Clip: {fileID: 0}
+              TransitionDuration: 0
+          Look:
+            Enabled: 0
+            UseInvisibility: 1
+            InvisibilityType: 0
+          Audio:
+            Enabled: 0
+            m_Clips: []
+            Volume: 0.5
+            MinPitch: 1
+            MaxPitch: 1.5
+            MinDistance: 2
+            MaxDistance: 7
+            Loop: 0
+            RolloffMode: 0
+          Message:
+            Enabled: 0
+            Foldout: 0
+            EnableDebugLog: 0
             ImpulseIntervalMin: 0
             ImpulseIntervalMax: 0
             ImpulseIntervalMaximum: 5
@@ -4636,9 +4222,11 @@ MonoBehaviour:
             ImpulseBreakLengthMin: 0
             ImpulseBreakLengthMax: 0
             ImpulseBreakLengthMaximum: 10
+            MethodType: 0
+            CustomMethodName: 
           Influences:
             Foldout: 1
-            Enabled: 1
+            Enabled: 0
             Interval: 0
             Damage: 0
             Stress: 0
@@ -4698,9 +4286,10 @@ MonoBehaviour:
           FavouredTargetName: 
           FavouredTargetRange: 0
         m_Rules:
-        - Key: 
-          Enabled: 1
+        - Enabled: 1
           Foldout: 1
+          EnableDebugLog: 0
+          Key: 
           UseFootsteps: 0
           UseCustomLength: 1
           LengthMin: 0
@@ -4808,8 +4397,8 @@ MonoBehaviour:
             RolloffMode: 0
           Message:
             Enabled: 0
-            MethodType: 0
-            CustomMethodName: 
+            Foldout: 0
+            EnableDebugLog: 0
             ImpulseIntervalMin: 0
             ImpulseIntervalMax: 0
             ImpulseIntervalMaximum: 5
@@ -4819,6 +4408,8 @@ MonoBehaviour:
             ImpulseBreakLengthMin: 0
             ImpulseBreakLengthMax: 0
             ImpulseBreakLengthMaximum: 10
+            MethodType: 0
+            CustomMethodName: 
           Influences:
             Foldout: 1
             Enabled: 0
@@ -4881,9 +4472,10 @@ MonoBehaviour:
           FavouredTargetName: 
           FavouredTargetRange: 0
         m_Rules:
-        - Key: 
-          Enabled: 1
+        - Enabled: 1
           Foldout: 1
+          EnableDebugLog: 0
+          Key: 
           UseFootsteps: 0
           UseCustomLength: 1
           LengthMin: 0
@@ -4991,8 +4583,8 @@ MonoBehaviour:
             RolloffMode: 0
           Message:
             Enabled: 0
-            MethodType: 0
-            CustomMethodName: 
+            Foldout: 0
+            EnableDebugLog: 0
             ImpulseIntervalMin: 0
             ImpulseIntervalMax: 0
             ImpulseIntervalMaximum: 5
@@ -5002,6 +4594,8 @@ MonoBehaviour:
             ImpulseBreakLengthMin: 0
             ImpulseBreakLengthMax: 0
             ImpulseBreakLengthMaximum: 10
+            MethodType: 0
+            CustomMethodName: 
           Influences:
             Foldout: 1
             Enabled: 0
@@ -5064,9 +4658,10 @@ MonoBehaviour:
           FavouredTargetName: 
           FavouredTargetRange: 0
         m_Rules:
-        - Key: 
-          Enabled: 1
+        - Enabled: 1
           Foldout: 1
+          EnableDebugLog: 0
+          Key: 
           UseFootsteps: 0
           UseCustomLength: 1
           LengthMin: 0
@@ -5174,8 +4769,8 @@ MonoBehaviour:
             RolloffMode: 0
           Message:
             Enabled: 0
-            MethodType: 0
-            CustomMethodName: 
+            Foldout: 0
+            EnableDebugLog: 0
             ImpulseIntervalMin: 0
             ImpulseIntervalMax: 0
             ImpulseIntervalMaximum: 5
@@ -5185,6 +4780,8 @@ MonoBehaviour:
             ImpulseBreakLengthMin: 0
             ImpulseBreakLengthMax: 0
             ImpulseBreakLengthMaximum: 10
+            MethodType: 0
+            CustomMethodName: 
           Influences:
             Foldout: 1
             Enabled: 0
@@ -5247,9 +4844,10 @@ MonoBehaviour:
           FavouredTargetName: 
           FavouredTargetRange: 0
         m_Rules:
-        - Key: 
-          Enabled: 1
+        - Enabled: 1
           Foldout: 1
+          EnableDebugLog: 0
+          Key: 
           UseFootsteps: 0
           UseCustomLength: 1
           LengthMin: 0
@@ -5357,8 +4955,8 @@ MonoBehaviour:
             RolloffMode: 0
           Message:
             Enabled: 0
-            MethodType: 0
-            CustomMethodName: 
+            Foldout: 0
+            EnableDebugLog: 0
             ImpulseIntervalMin: 0
             ImpulseIntervalMax: 0
             ImpulseIntervalMaximum: 5
@@ -5368,6 +4966,8 @@ MonoBehaviour:
             ImpulseBreakLengthMin: 0
             ImpulseBreakLengthMax: 0
             ImpulseBreakLengthMaximum: 10
+            MethodType: 0
+            CustomMethodName: 
           Influences:
             Foldout: 1
             Enabled: 0
@@ -5430,9 +5030,10 @@ MonoBehaviour:
           FavouredTargetName: 
           FavouredTargetRange: 0
         m_Rules:
-        - Key: 
-          Enabled: 1
+        - Enabled: 1
           Foldout: 1
+          EnableDebugLog: 0
+          Key: 
           UseFootsteps: 0
           UseCustomLength: 1
           LengthMin: 0
@@ -5540,8 +5141,8 @@ MonoBehaviour:
             RolloffMode: 0
           Message:
             Enabled: 0
-            MethodType: 0
-            CustomMethodName: 
+            Foldout: 0
+            EnableDebugLog: 0
             ImpulseIntervalMin: 0
             ImpulseIntervalMax: 0
             ImpulseIntervalMaximum: 5
@@ -5551,6 +5152,8 @@ MonoBehaviour:
             ImpulseBreakLengthMin: 0
             ImpulseBreakLengthMax: 0
             ImpulseBreakLengthMaximum: 10
+            MethodType: 0
+            CustomMethodName: 
           Influences:
             Foldout: 1
             Enabled: 0
@@ -5613,9 +5216,10 @@ MonoBehaviour:
           FavouredTargetName: 
           FavouredTargetRange: 0
         m_Rules:
-        - Key: 
-          Enabled: 1
+        - Enabled: 1
           Foldout: 1
+          EnableDebugLog: 0
+          Key: 
           UseFootsteps: 0
           UseCustomLength: 1
           LengthMin: 0
@@ -5723,8 +5327,8 @@ MonoBehaviour:
             RolloffMode: 0
           Message:
             Enabled: 0
-            MethodType: 0
-            CustomMethodName: 
+            Foldout: 0
+            EnableDebugLog: 0
             ImpulseIntervalMin: 0
             ImpulseIntervalMax: 0
             ImpulseIntervalMaximum: 5
@@ -5734,6 +5338,8 @@ MonoBehaviour:
             ImpulseBreakLengthMin: 0
             ImpulseBreakLengthMax: 0
             ImpulseBreakLengthMaximum: 10
+            MethodType: 0
+            CustomMethodName: 
           Influences:
             Foldout: 1
             Enabled: 0
@@ -5778,10 +5384,13 @@ MonoBehaviour:
             Enabled: 0
             m_ActionList: []
     m_Missions:
+      Enabled: 0
+      Foldout: 0
+      EnableDebugLog: 0
       m_Outpost:
         m_Target:
           AccessType: 0
-          m_TargetTag: Untagged
+          m_TargetTag: 
           m_TargetName: 
           m_TargetGameObject: {fileID: 0}
           Influences:
@@ -5885,13 +5494,13 @@ MonoBehaviour:
           TargetMoveComplete: 0
           OffsetDistanceMax: 100
         Enabled: 0
-        BehaviourModeTravel: ' '
-        BehaviourModeLeisure: ' '
-        BehaviourModeRendezvous: ' '
+        BehaviourModeTravel: 
+        BehaviourModeLeisure: 
+        BehaviourModeRendezvous: 
       m_Escort:
         m_Target:
           AccessType: 0
-          m_TargetTag: Untagged
+          m_TargetTag: 
           m_TargetName: 
           m_TargetGameObject: {fileID: 0}
           Influences:
@@ -6000,10 +5609,10 @@ MonoBehaviour:
         DelayStandby: 1
         DelayIdle: 2
         DurationStandby: 10
-        BehaviourModeEscort: ' '
-        BehaviourModeFollow: ' '
-        BehaviourModeStandby: ' '
-        BehaviourModeIdle: ' '
+        BehaviourModeEscort: 
+        BehaviourModeFollow: 
+        BehaviourModeStandby: 
+        BehaviourModeIdle: 
       m_Patrol:
         m_Target:
           AccessType: 0
@@ -7230,6 +6839,9 @@ MonoBehaviour:
           OffsetDistanceMax: 100
         Enabled: 0
     m_Move:
+      Enabled: 0
+      Foldout: 0
+      EnableDebugLog: 0
       DefaultBody:
         Type: 1
         UseAdvanced: 0
@@ -7357,7 +6969,7 @@ MonoBehaviour:
       MotionControl: 1
       NavMeshForced: 0
       m_NavMeshPathPendingCounter: 0
-      GroundCheck: 0
+      GroundCheck: 1
       GroundCheckBaseOffset: 0
       VerticalRaycastOffset: 0.5
       VerticalRaycastOffsetMax: 50
@@ -7386,9 +6998,13 @@ MonoBehaviour:
       ObstacleAvoidanceScanningRange: 15
       ObstacleAvoidanceCheckDistanceMax: 50
     m_Environment:
+      Enabled: 0
+      Foldout: 0
+      EnableDebugLog: 0
       m_Collision:
-        Foldout: 1
         Enabled: 0
+        Foldout: 1
+        EnableDebugLog: 0
         UseCollider: 1
         UseTrigger: 0
         UseCharacterController: 0
@@ -7396,8 +7012,62 @@ MonoBehaviour:
         Collisions: []
       m_Surface:
         Enabled: 0
+        Foldout: 0
+        EnableDebugLog: 0
         Interval: 1
-        Surfaces: []
+        Surfaces:
+        - Foldout: 1
+          Enabled: 1
+          Interval: 1
+          Name: 'Surface Rule #1'
+          Textures: []
+          UseBehaviourModeKey: 0
+          BehaviourModeKey: 
+          Effect:
+            Enabled: 0
+            ReferenceObject: {fileID: 0}
+            Offset: {x: 0, y: 0, z: 0}
+            Rotation: {x: 0, y: 0, z: 0, w: 1}
+            OffsetType: 0
+            OffsetRadius: 0
+            Detach: 0
+            IntervalMin: 0
+            IntervalMax: 0
+            MaxInterval: 0
+            ParentName: 
+            CurrentEffect: {fileID: 0}
+          Influences:
+            Foldout: 1
+            Enabled: 0
+            Interval: 0
+            Damage: 0
+            Stress: 0
+            Debility: 0
+            Hunger: 0
+            Thirst: 0
+            Aggressivity: 0
+            Anxiety: 0
+            Experience: 0
+            Nosiness: 0
+            Odour:
+              Enabled: 0
+              Type: 0
+              Intensity: 0
+              IntensityMax: 0
+              Range: 0
+              RangeMax: 0
+              UseMarker: 0
+              UseEffect: 0
+          Audio:
+            Enabled: 0
+            m_Clips: []
+            Volume: 0.5
+            MinPitch: 1
+            MaxPitch: 1.5
+            MinDistance: 2
+            MaxDistance: 7
+            Loop: 0
+            RolloffMode: 0
         ScanInterval: 1
     m_TargetChanged: 0
     m_IsVisible: 0

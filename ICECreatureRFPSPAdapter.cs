@@ -41,6 +41,8 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
+using ICE.Creatures.Components;
+
 namespace ICE.Creatures.Adapter
 {
 	public enum DamageType{
