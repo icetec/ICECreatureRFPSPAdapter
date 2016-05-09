@@ -1914,10 +1914,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 01feceed551e395448e476a2ad1bdded, type: 3}
   m_IsPrefabParent: 0
---- !u!1 &113230407 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 189572, guid: 1d39c947df49a414a8eec8fac398e4ca, type: 2}
-  m_PrefabInternal: {fileID: 1007377229}
 --- !u!1001 &116434561
 Prefab:
   m_ObjectHideFlags: 0
@@ -10137,26 +10133,36 @@ MonoBehaviour:
   - Status:
       HasCreatureController: 1
       HasCreatureAdapter: 0
-      HasHome: 1
+      HasHome: 0
       HasMissionOutpost: 0
       HasMissionEscort: 0
-      HasMissionPatrol: 1
-      isPrefab: 0
-      isActiveAndEnabled: 1
-      isActiveInHierarchy: 1
+      HasMissionPatrol: 0
+      isPrefab: 1
+      isActiveAndEnabled: 0
+      isActiveInHierarchy: 0
     Foldout: 1
     Enabled: 1
     GroupByTag: 0
-    Reference: {fileID: 113230407}
-    m_SpawnPoints: []
-    PoolManagementEnabled: 0
+    Reference: {fileID: 189572, guid: 1d39c947df49a414a8eec8fac398e4ca, type: 2}
+    m_SpawnPoints:
+    - AccessType: 1
+      IsPrefab: 0
+      SpawnPointGameObject: {fileID: 1197290753}
+      SpawnPointName: WP2
+      SpawnPointTag: Untagged
+      SpawningRangeMin: 2
+      SpawningRangeMax: 8
+      SpawningRangeMaximum: 100
+      LevelDifference: 250
+      LevelDifferenceMaximum: 1000
+    PoolManagementEnabled: 1
     UseSoftRespawn: 1
     InitialSpawnPriority: 0
-    MaxObjects: 25
+    MaxObjects: 1
     MaxObjectsMaximum: 100
-    UseInitialSpawn: 0
-    MinSpawnInterval: 10
-    MaxSpawnInterval: 60
+    UseInitialSpawn: 1
+    MinSpawnInterval: 1
+    MaxSpawnInterval: 10
     RespawnIntervalMax: 360
     UseRandomSize: 0
     RandomSizeMin: 0
@@ -10522,7 +10528,7 @@ MonoBehaviour:
     UseHierarchyGroupObject: 0
     CustomHierarchyGroupObject: {fileID: 0}
   UseReferenceCategories: 1
-  CategoriesFoldout: 0100000100000001
+  CategoriesFoldout: 0101000100000001
   UseHierarchyManagement: 1
   UsePoolManagement: 1
   UseSceneManagement: 1
@@ -16805,6 +16811,14 @@ Prefab:
       propertyPath: m_Creature.m_Missions.m_Patrol.m_Waypoints.m_Waypoints.Array.data[6].m_TargetGameObject
       value: 
       objectReference: {fileID: 1004681791}
+    - target: {fileID: 11416788, guid: 1d39c947df49a414a8eec8fac398e4ca, type: 2}
+      propertyPath: Display.m_ShowEssentials
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11416788, guid: 1d39c947df49a414a8eec8fac398e4ca, type: 2}
+      propertyPath: Display.m_ShowStatus
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1d39c947df49a414a8eec8fac398e4ca, type: 2}
   m_IsPrefabParent: 0
@@ -23681,7 +23695,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.9842622, z: 0, w: 0.17671417}
   m_LocalPosition: {x: -2.2011395, y: 15.6154785, z: 5.294093}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 159.64319, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 159.6431, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
@@ -25277,8 +25291,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1491486696}
-  m_LocalRotation: {x: -0.017253622, y: 0.9146769, z: 0.40190396, w: 0.039263915}
-  m_LocalPosition: {x: -31.208014, y: -108.17616, z: 165.43507}
+  m_LocalRotation: {x: -0.017253617, y: 0.9146769, z: 0.401904, w: 0.03926391}
+  m_LocalPosition: {x: -5.645584, y: -76.7722, z: 160.3413}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: -47.4408, y: 175.08409, z: -0.0002}
   m_Children: []
@@ -26366,6 +26380,10 @@ MonoBehaviour:
   BaseOffset: 0
   BaseOffsetMaximum: 0
   GroundedInEditorMode: 0
+  m_Player:
+    Enabled: 0
+    Foldout: 0
+    EnableDebugLog: 0
   m_Odour:
     Type: 0
     Intensity: 50
