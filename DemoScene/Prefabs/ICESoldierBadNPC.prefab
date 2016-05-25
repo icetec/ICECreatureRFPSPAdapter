@@ -1069,7 +1069,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &194934
 GameObject:
   m_ObjectHideFlags: 1
@@ -2599,10 +2599,15 @@ MonoBehaviour:
           Enabled: 0
           Interval: 0
           Damage: 0
+          UseDamageInPercent: 0
           Stress: 0
+          UseStressInPercent: 0
           Debility: 0
+          UseDebilityInPercent: 0
           Hunger: 0
+          UseHungerInPercent: 0
           Thirst: 0
+          UseThirstInPercent: 0
           Aggressivity: 0
           Anxiety: 0
           Experience: 0
@@ -2708,10 +2713,15 @@ MonoBehaviour:
             Enabled: 0
             Interval: 0
             Damage: 0
+            UseDamageInPercent: 0
             Stress: 0
+            UseStressInPercent: 0
             Debility: 0
+            UseDebilityInPercent: 0
             Hunger: 0
+            UseHungerInPercent: 0
             Thirst: 0
+            UseThirstInPercent: 0
             Aggressivity: 0
             Anxiety: 0
             Experience: 0
@@ -3149,10 +3159,15 @@ MonoBehaviour:
           Enabled: 0
           Interval: 0
           Damage: 0
+          UseDamageInPercent: 0
           Stress: 0
+          UseStressInPercent: 0
           Debility: 0
+          UseDebilityInPercent: 0
           Hunger: 0
+          UseHungerInPercent: 0
           Thirst: 0
+          UseThirstInPercent: 0
           Aggressivity: 0
           Anxiety: 0
           Experience: 0
@@ -3254,39 +3269,39 @@ MonoBehaviour:
       Enabled: 0
       Foldout: 0
       EnableDebugLog: 0
-      DefaultIntegrity: 10
-      DefaultIntegrityMin: 10
-      DefaultIntegrityMax: 10
-      DefaultIntegrityMaximum: 100
-      UseAging: 1
+      DefaultDurability: 10
+      DefaultDurabilityMin: 100
+      DefaultDurabilityMax: 100
+      DefaultDurabilityMaximum: 100
+      UseAging: 0
       MaxAge: 60
       MaxAgeMaximum: 60
-      PerceptionTime: 0.5926883
+      PerceptionTime: 0.49131012
       DefaultPerceptionTime: 0.5
       PerceptionTimeVariance: 0.25
       AutoPerceptionTime: 1
       PerceptionTimeFitnessMultiplier: 0
-      ReactionTime: 0.52337664
+      ReactionTime: 0.5064877
       DefaultReactionTime: 0.5
       ReactionTimeVariance: 0.25
       AutoReactionTime: 1
       ReactionTimeFitnessMultiplier: 0
       RecoveryPhase: 0
       RecoveryPhasePeriodMax: 30
-      RemoveDelayMaximum: 300
-      RemoveDelay: 6.5
-      RemoveDelayVariance: 0.25
+      RemovingDelayMaximum: 300
+      RemovingDelay: 0
+      RemovingDelayVariance: 0.25
       UseCorpse: 1
       CorpseReferencePrefab: {fileID: 159450, guid: b176a04516a4f164894206d2bf6596f5,
         type: 2}
-      CorpseRemoveDelay: 20
-      CorpseRemoveDelayMaximum: 300
-      CorpseRemoveDelayVariance: 0.25
+      CorpseRemovingDelay: 20
+      CorpseRemovingDelayMaximum: 20
+      CorpseRemovingDelayVariance: 0.25
       FitnessRecreationLimit: 0
       TrophicLevel: 0
       IsCannibal: 0
       UseDynamicInitialisation: 0
-      UseAdvanced: 1
+      UseAdvanced: 0
       UseArmor: 0
       UseEnvironmentTemperature: 0
       MinEnvironmentTemperature: -25
@@ -3577,10 +3592,15 @@ MonoBehaviour:
             Enabled: 0
             Interval: 0
             Damage: 0
+            UseDamageInPercent: 0
             Stress: 0
+            UseStressInPercent: 0
             Debility: 0
+            UseDebilityInPercent: 0
             Hunger: 0
+            UseHungerInPercent: 0
             Thirst: 0
+            UseThirstInPercent: 0
             Aggressivity: 0
             Anxiety: 0
             Experience: 0
@@ -3763,10 +3783,15 @@ MonoBehaviour:
             Enabled: 0
             Interval: 0
             Damage: 0
+            UseDamageInPercent: 0
             Stress: 0
+            UseStressInPercent: 0
             Debility: 0
+            UseDebilityInPercent: 0
             Hunger: 0
+            UseHungerInPercent: 0
             Thirst: 0
+            UseThirstInPercent: 0
             Aggressivity: 0
             Anxiety: 0
             Experience: 0
@@ -3930,10 +3955,15 @@ MonoBehaviour:
             Enabled: 0
             Interval: 0
             Damage: 0
+            UseDamageInPercent: 0
             Stress: 0
+            UseStressInPercent: 0
             Debility: 0
+            UseDebilityInPercent: 0
             Hunger: 0
+            UseHungerInPercent: 0
             Thirst: 0
+            UseThirstInPercent: 0
             Aggressivity: 0
             Anxiety: 0
             Experience: 0
@@ -4116,10 +4146,15 @@ MonoBehaviour:
             Enabled: 0
             Interval: 0
             Damage: 0
+            UseDamageInPercent: 0
             Stress: 0
+            UseStressInPercent: 0
             Debility: 0
+            UseDebilityInPercent: 0
             Hunger: 0
+            UseHungerInPercent: 0
             Thirst: 0
+            UseThirstInPercent: 0
             Aggressivity: 0
             Anxiety: 0
             Experience: 0
@@ -4302,10 +4337,15 @@ MonoBehaviour:
             Enabled: 0
             Interval: 0
             Damage: 0
+            UseDamageInPercent: 0
             Stress: 0
+            UseStressInPercent: 0
             Debility: 0
+            UseDebilityInPercent: 0
             Hunger: 0
+            UseHungerInPercent: 0
             Thirst: 0
+            UseThirstInPercent: 0
             Aggressivity: 0
             Anxiety: 0
             Experience: 0
@@ -4488,10 +4528,15 @@ MonoBehaviour:
             Enabled: 0
             Interval: 1
             Damage: 5
+            UseDamageInPercent: 0
             Stress: 0
+            UseStressInPercent: 0
             Debility: 0
+            UseDebilityInPercent: 0
             Hunger: 0
+            UseHungerInPercent: 0
             Thirst: 0
+            UseThirstInPercent: 0
             Aggressivity: 0
             Anxiety: 0
             Experience: 0
@@ -4674,10 +4719,15 @@ MonoBehaviour:
             Enabled: 0
             Interval: 0
             Damage: 0
+            UseDamageInPercent: 0
             Stress: 0
+            UseStressInPercent: 0
             Debility: 0
+            UseDebilityInPercent: 0
             Hunger: 0
+            UseHungerInPercent: 0
             Thirst: 0
+            UseThirstInPercent: 0
             Aggressivity: 0
             Anxiety: 0
             Experience: 0
@@ -4860,10 +4910,15 @@ MonoBehaviour:
             Enabled: 0
             Interval: 0
             Damage: 0
+            UseDamageInPercent: 0
             Stress: 0
+            UseStressInPercent: 0
             Debility: 0
+            UseDebilityInPercent: 0
             Hunger: 0
+            UseHungerInPercent: 0
             Thirst: 0
+            UseThirstInPercent: 0
             Aggressivity: 0
             Anxiety: 0
             Experience: 0
@@ -5046,10 +5101,15 @@ MonoBehaviour:
             Enabled: 0
             Interval: 0
             Damage: 0
+            UseDamageInPercent: 0
             Stress: 0
+            UseStressInPercent: 0
             Debility: 0
+            UseDebilityInPercent: 0
             Hunger: 0
+            UseHungerInPercent: 0
             Thirst: 0
+            UseThirstInPercent: 0
             Aggressivity: 0
             Anxiety: 0
             Experience: 0
@@ -5099,10 +5159,15 @@ MonoBehaviour:
             Enabled: 0
             Interval: 0
             Damage: 0
+            UseDamageInPercent: 0
             Stress: 0
+            UseStressInPercent: 0
             Debility: 0
+            UseDebilityInPercent: 0
             Hunger: 0
+            UseHungerInPercent: 0
             Thirst: 0
+            UseThirstInPercent: 0
             Aggressivity: 0
             Anxiety: 0
             Experience: 0
@@ -5209,10 +5274,15 @@ MonoBehaviour:
             Enabled: 0
             Interval: 0
             Damage: 0
+            UseDamageInPercent: 0
             Stress: 0
+            UseStressInPercent: 0
             Debility: 0
+            UseDebilityInPercent: 0
             Hunger: 0
+            UseHungerInPercent: 0
             Thirst: 0
+            UseThirstInPercent: 0
             Aggressivity: 0
             Anxiety: 0
             Experience: 0
@@ -5325,10 +5395,15 @@ MonoBehaviour:
             Enabled: 0
             Interval: 0
             Damage: 0
+            UseDamageInPercent: 0
             Stress: 0
+            UseStressInPercent: 0
             Debility: 0
+            UseDebilityInPercent: 0
             Hunger: 0
+            UseHungerInPercent: 0
             Thirst: 0
+            UseThirstInPercent: 0
             Aggressivity: 0
             Anxiety: 0
             Experience: 0
@@ -5437,10 +5512,15 @@ MonoBehaviour:
               Enabled: 0
               Interval: 0
               Damage: 0
+              UseDamageInPercent: 0
               Stress: 0
+              UseStressInPercent: 0
               Debility: 0
+              UseDebilityInPercent: 0
               Hunger: 0
+              UseHungerInPercent: 0
               Thirst: 0
+              UseThirstInPercent: 0
               Aggressivity: 0
               Anxiety: 0
               Experience: 0
@@ -5549,10 +5629,15 @@ MonoBehaviour:
               Enabled: 0
               Interval: 0
               Damage: 0
+              UseDamageInPercent: 0
               Stress: 0
+              UseStressInPercent: 0
               Debility: 0
+              UseDebilityInPercent: 0
               Hunger: 0
+              UseHungerInPercent: 0
               Thirst: 0
+              UseThirstInPercent: 0
               Aggressivity: 0
               Anxiety: 0
               Experience: 0
@@ -5661,10 +5746,15 @@ MonoBehaviour:
               Enabled: 0
               Interval: 0
               Damage: 0
+              UseDamageInPercent: 0
               Stress: 0
+              UseStressInPercent: 0
               Debility: 0
+              UseDebilityInPercent: 0
               Hunger: 0
+              UseHungerInPercent: 0
               Thirst: 0
+              UseThirstInPercent: 0
               Aggressivity: 0
               Anxiety: 0
               Experience: 0
@@ -5773,10 +5863,15 @@ MonoBehaviour:
               Enabled: 0
               Interval: 0
               Damage: 0
+              UseDamageInPercent: 0
               Stress: 0
+              UseStressInPercent: 0
               Debility: 0
+              UseDebilityInPercent: 0
               Hunger: 0
+              UseHungerInPercent: 0
               Thirst: 0
+              UseThirstInPercent: 0
               Aggressivity: 0
               Anxiety: 0
               Experience: 0
@@ -5885,10 +5980,15 @@ MonoBehaviour:
               Enabled: 0
               Interval: 0
               Damage: 0
+              UseDamageInPercent: 0
               Stress: 0
+              UseStressInPercent: 0
               Debility: 0
+              UseDebilityInPercent: 0
               Hunger: 0
+              UseHungerInPercent: 0
               Thirst: 0
+              UseThirstInPercent: 0
               Aggressivity: 0
               Anxiety: 0
               Experience: 0
@@ -5997,10 +6097,15 @@ MonoBehaviour:
               Enabled: 0
               Interval: 0
               Damage: 0
+              UseDamageInPercent: 0
               Stress: 0
+              UseStressInPercent: 0
               Debility: 0
+              UseDebilityInPercent: 0
               Hunger: 0
+              UseHungerInPercent: 0
               Thirst: 0
+              UseThirstInPercent: 0
               Aggressivity: 0
               Anxiety: 0
               Experience: 0
@@ -6109,10 +6214,15 @@ MonoBehaviour:
               Enabled: 0
               Interval: 0
               Damage: 0
+              UseDamageInPercent: 0
               Stress: 0
+              UseStressInPercent: 0
               Debility: 0
+              UseDebilityInPercent: 0
               Hunger: 0
+              UseHungerInPercent: 0
               Thirst: 0
+              UseThirstInPercent: 0
               Aggressivity: 0
               Anxiety: 0
               Experience: 0
@@ -6229,10 +6339,15 @@ MonoBehaviour:
             Enabled: 0
             Interval: 0
             Damage: 0
+            UseDamageInPercent: 0
             Stress: 0
+            UseStressInPercent: 0
             Debility: 0
+            UseDebilityInPercent: 0
             Hunger: 0
+            UseHungerInPercent: 0
             Thirst: 0
+            UseThirstInPercent: 0
             Aggressivity: 0
             Anxiety: 0
             Experience: 0
@@ -6336,10 +6451,15 @@ MonoBehaviour:
             Enabled: 0
             Interval: 0
             Damage: 0
+            UseDamageInPercent: 0
             Stress: 0
+            UseStressInPercent: 0
             Debility: 0
+            UseDebilityInPercent: 0
             Hunger: 0
+            UseHungerInPercent: 0
             Thirst: 0
+            UseThirstInPercent: 0
             Aggressivity: 0
             Anxiety: 0
             Experience: 0
@@ -6443,10 +6563,15 @@ MonoBehaviour:
             Enabled: 0
             Interval: 0
             Damage: 0
+            UseDamageInPercent: 0
             Stress: 0
+            UseStressInPercent: 0
             Debility: 0
+            UseDebilityInPercent: 0
             Hunger: 0
+            UseHungerInPercent: 0
             Thirst: 0
+            UseThirstInPercent: 0
             Aggressivity: 0
             Anxiety: 0
             Experience: 0
@@ -6742,10 +6867,15 @@ MonoBehaviour:
             Enabled: 0
             Interval: 0
             Damage: 0
+            UseDamageInPercent: 0
             Stress: 0
+            UseStressInPercent: 0
             Debility: 0
+            UseDebilityInPercent: 0
             Hunger: 0
+            UseHungerInPercent: 0
             Thirst: 0
+            UseThirstInPercent: 0
             Aggressivity: 0
             Anxiety: 0
             Experience: 0
